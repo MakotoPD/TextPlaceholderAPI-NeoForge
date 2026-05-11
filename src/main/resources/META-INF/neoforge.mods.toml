@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="LGPL-3.0-only"
+
+[[mods]]
+modId="placeholder_api"
+version="${file.jarVersion}"
+displayName="Placeholder API NeoForge"
+displayTest="IGNORE_ALL_VERSION"
+description='''NeoForge 1.21.1 port of the core Text Placeholder API registration and parsing surface.'''
+
+[[dependencies.placeholder_api]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.228,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.placeholder_api]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
